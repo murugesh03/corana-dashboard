@@ -1,0 +1,22 @@
+@import "../../../utilites/Variables.scss";
+.card-individual {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 6rem 0;
+  &-content {
+    &-header {
+      background-color: $tertiary-color;
+      text-align: center;
+      font-weight: 600;
+      color: blanchedalmond;
+      padding: 0.5rem 0;
+    }
+    &-text {
+      background-color: $secondary-color;
+      font-size: 2rem;
+      text-align: center;
+      padding: 1rem 0;
+      color: blanchedalmond;
+    }
+  }
+}
