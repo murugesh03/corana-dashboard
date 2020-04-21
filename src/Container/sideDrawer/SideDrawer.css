@@ -6,14 +6,14 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #272d3f;
+  background-color: #1e2741;
   overflow-x: hidden;
   padding-top: 4rem;
 }
 
 .side-drawer ul li {
   list-style: none;
-  line-height: 2.5rem;
+  line-height: 3.5rem;
   color: white;
 }
 /*# sourceMappingURL=SideDrawer.css.map */

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./CoronaDashboard.scss";
 import SideDrawer from "./sideDrawer/SideDrawer";
 import Navbar from "./Navbar/Navbar";

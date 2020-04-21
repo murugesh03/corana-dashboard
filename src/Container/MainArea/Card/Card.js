@@ -1,53 +1,18 @@
 import React from "react";
 import "./Card.scss";
-import { Card } from "react-bootstrap";
+import Affected from "./Affected/Affected";
+import Recovered from "./Recovered/Recovered";
+import Death from "./Death/Death";
+// import { CoranaConsumer } from "../../../Context";
+
 const CardView = () => {
   return (
     <div className="card">
       <div className="container">
         <div className=" card-individual">
-          <Card
-            className="card-individual-content"
-            border="primary"
-            style={{ width: "18rem" }}
-          >
-            <Card.Header className="card-individual-content-header">
-              Affected
-            </Card.Header>
-            <Card.Body>
-              <Card.Text className="card-individual-content-text">
-                1500
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            className="card-individual-content"
-            border="primary"
-            style={{ width: "18rem" }}
-          >
-            <Card.Header className="card-individual-content-header">
-              Recoverd
-            </Card.Header>
-            <Card.Body>
-              <Card.Text className="card-individual-content-text">
-                1000
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            className="card-individual-content"
-            border="primary"
-            style={{ width: "18rem" }}
-          >
-            <Card.Header className="card-individual-content-header">
-              Death
-            </Card.Header>
-            <Card.Body>
-              <Card.Text className="card-individual-content-text">
-                500
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Affected />
+          <Recovered />
+          <Death />
         </div>
       </div>
     </div>
