@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
+    "mappings": "AAEA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,GAAG;EACV,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,CAAC;CACT",
     "sources": [
-        "CoronaDashboard.scss"
+        "CoronaDashboard.scss",
+        "../utilites/Variables.scss"
     ],
     "names": [],
     "file": "CoronaDashboard.css"

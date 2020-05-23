@@ -7,14 +7,10 @@ import Death from "./Death/Death";
 
 const CardView = () => {
   return (
-    <div className="card">
-      <div className="container">
-        <div className=" card-individual">
-          <Affected />
-          <Recovered />
-          <Death />
-        </div>
-      </div>
+    <div className=" card-individual">
+      <Affected />
+      <Recovered />
+      <Death />
     </div>
   );
 };

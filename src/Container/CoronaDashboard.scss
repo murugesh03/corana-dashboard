@@ -1,5 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import "../utilites/Variables.scss";
+
+.main-area {
+  background: #151a2f;
+  height: 100vh;
+  width: 85%;
+  position: absolute;
+  right: 0;
+  top: 0;
 }

@@ -1,26 +1,27 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./CoronaDashboard.scss";
 import SideDrawer from "./sideDrawer/SideDrawer";
-import Navbar from "./Navbar/Navbar";
 import MainArea from "./MainArea/MainArea";
 import Prevention from "./Prevention/Prevention";
 import Treatments from "./Treatments/Treatments";
 import Symptoms from "./Symptoms/Symptoms";
-
 import { Switch, Route } from "react-router-dom";
-const coronaDashboard = () => {
+const CoronaDashboard = () => {
   return (
-    <div className="corna-dashboard">
-      <Navbar />
+    <div className="corona-dashboard">
       <SideDrawer />
       <Switch>
-        <Route exact path="/" component={MainArea} />
-        <Route exact path="/symptoms" component={Symptoms} />
-        <Route exact path="/prevention" component={Prevention} />
-        <Route exact path="/treatments" component={Treatments} />
+        <Fragment>
+          <div className="main-area">
+            <Route exact path="/" component={MainArea} />
+            <Route path="/symptoms" component={Symptoms} />
+            <Route path="/prevention" component={Prevention} />
+            <Route path="/treatments" component={Treatments} />
+          </div>
+        </Fragment>
       </Switch>
     </div>
   );
 };
 
-export default coronaDashboard;
+export default CoronaDashboard;

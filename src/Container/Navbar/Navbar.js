@@ -1,16 +1,13 @@
 import React from "react";
 import "./Navbar.scss";
-import { Navbar, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 const NavBar = () => {
   return (
     <Row>
       <Col md={12}>
-        {" "}
-        <Navbar className="nav-bar">
-          <Navbar.Brand>
-            <h3>Corana Tracker</h3>
-          </Navbar.Brand>
-        </Navbar>
+        <div className="nav-bar">
+          <h3>Corona Tracker</h3>
+        </div>
       </Col>
     </Row>
   );
